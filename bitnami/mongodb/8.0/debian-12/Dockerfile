@@ -57,6 +57,6 @@ ENV APP_VERSION="8.0.6" \
 
 EXPOSE 27017
 
-USER 1001
+USER 99
 ENTRYPOINT [ "/opt/bitnami/scripts/mongodb/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/mongodb/run.sh" ]
